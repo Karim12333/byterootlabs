@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     default: "ByteRoot Labs — Software Development Company",
     template: "%s — ByteRoot Labs",
   },
-  description: "Professional software development company specializing in web applications, mobile apps, and cloud solutions. Transform your ideas into powerful digital solutions with ByteRoot Labs.",
-  keywords: ["software development", "web development", "mobile apps", "cloud solutions", "ByteRoot Labs", "custom software"],
+  description: "Professional software development company specializing in web applications, agentic AI solutions, and cloud solutions. Transform your ideas into powerful digital solutions with ByteRoot Labs.",
+  keywords: ["software development", "web development", "agentic AI solutions", "cloud solutions", "ByteRoot Labs", "custom software"],
   authors: [{ name: "ByteRoot Labs" }],
   creator: "ByteRoot Labs",
   publisher: "ByteRoot Labs",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: "https://byterootlabs.vercel.app",
     siteName: "ByteRoot Labs",
     title: "ByteRoot Labs — Software Development Company",
-    description: "Professional software development company specializing in web applications, mobile apps, and cloud solutions.",
+    description: "Professional software development company specializing in web applications, agentic AI solutions, and cloud solutions.",
     images: [
       {
         url: "/og.png",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ByteRoot Labs — Software Development Company",
-    description: "Professional software development company specializing in web applications, mobile apps, and cloud solutions.",
+    description: "Professional software development company specializing in web applications, agentic AI solutions, and cloud solutions.",
     images: ["/og.png"],
   },
   robots: {

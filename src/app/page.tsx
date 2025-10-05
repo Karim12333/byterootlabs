@@ -33,7 +33,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl text-white/80 mt-16 mb-12 slide-up leading-relaxed text-center">
-              We transform ideas into powerful software solutions. From web applications to mobile apps, 
+              We transform ideas into powerful agentic AI solutions and intelligent software. From web applications to autonomous AI agents, 
               we build scalable, innovative technology that drives your business forward.
             </p>
             
@@ -64,7 +64,7 @@ export default function Home() {
               Our Expertise
             </h2>
             <p className="text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed text-center">
-              We specialize in building robust, scalable software solutions tailored to your business needs.
+              We specialize in building intelligent agentic AI solutions, robust web applications, and scalable cloud systems tailored to your business needs.
             </p>
           </div>
           <div className="w-full max-w-6xl mx-auto">
@@ -82,11 +82,11 @@ export default function Home() {
               <Card>
                 <div className="text-gold-400 mb-6 flex justify-center">
                   <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3C9.79 3 8 4.79 8 7c0 1.1.45 2.1 1.17 2.83A4.002 4.002 0 0012 14c1.38 0 2.63-.7 3.36-1.86A3.99 3.99 0 0016 7c0-2.21-1.79-4-4-4zM9 17c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v1c0 1.1-.9 2-2 2h-2c-1.1 0-2-.9-2-2v-1zm6-9c0-.55-.45-1-1-1s-1 .45-1 1 .45 1 1 1 1-.45 1-1zM9 8c0-.55-.45-1-1-1s-1 .45-1 1 .45 1 1 1 1-.45 1-1z" />
                   </svg>
                 </div>
-                <h3 className="heading-sm text-white mb-4 text-center">Mobile Applications</h3>
-                <p className="text-white/70 text-center leading-relaxed">Native and cross-platform mobile apps that deliver exceptional user experiences.</p>
+                <h3 className="heading-sm text-white mb-4 text-center">Agentic AI Solutions</h3>
+                <p className="text-white/70 text-center leading-relaxed">Intelligent autonomous agents and AI-powered software that can think, learn, and act independently to solve complex business problems.</p>
               </Card>
               
               <Card>
@@ -111,7 +111,7 @@ export default function Home() {
               Why ByteRoot Labs?
             </h2>
             <p className="text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed text-center">
-              We combine technical expertise with business insight to deliver solutions that drive real results.
+              By blending advanced engineering capabilities with a strong grasp of business objectives, we create powerful, data-driven software solutions that accelerate growth and deliver tangible outcomes for our clients.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">

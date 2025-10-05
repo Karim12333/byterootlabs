@@ -30,8 +30,8 @@ export default function AboutPage() {
               About <span className="text-gradient">ByteRoot Labs</span>
             </h1>
             <p className="text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed">
-              We are passionate software engineers dedicated to building innovative digital solutions 
-              that help businesses grow and succeed in the modern world.
+              We are passionate AI engineers and software developers dedicated to building innovative agentic AI solutions 
+              that help businesses automate, optimize, and succeed in the modern world.
             </p>
           </div>
         </div>
@@ -44,15 +44,15 @@ export default function AboutPage() {
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h3 className="heading-md text-white mb-6">Empowering Digital Transformation</h3>
+            <h3 className="heading-md text-white mb-6">Empowering Intelligent Automation</h3>
             <p className="text-white/70 mb-6">
-              At ByteRoot Labs, we believe technology should simplify complex challenges and create new opportunities. 
-              Our mission is to partner with businesses of all sizes to transform their ideas into powerful, 
-              scalable software solutions.
+              At ByteRoot Labs, we believe AI should augment human intelligence and automate complex workflows. 
+              Our mission is to partner with businesses to transform their operations with intelligent agentic solutions 
+              that can think, learn, and act autonomously.
             </p>
             <p className="text-white/70 mb-6">
-              We combine cutting-edge technology with deep business understanding to deliver solutions that 
-              not only meet current needs but also adapt and grow with your business.
+              We combine cutting-edge AI technologies with deep business understanding to deliver autonomous systems that 
+              not only solve current challenges but continuously evolve and improve with your business.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
@@ -148,8 +148,8 @@ export default function AboutPage() {
       >
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {[
-            'React', 'Next.js', 'Node.js', 'TypeScript', 'Python', 'AWS',
-            'Docker', 'PostgreSQL', 'MongoDB', 'React Native', 'Flutter', 'Git'
+            'Python', 'TensorFlow', 'PyTorch', 'OpenAI', 'LangChain', 'React',
+            'Next.js', 'Node.js', 'TypeScript', 'AWS', 'Docker', 'PostgreSQL'
           ].map((tech) => (
             <div key={tech} className="text-center">
               <div className="w-16 h-16 bg-coal-800 rounded-lg flex items-center justify-center mx-auto mb-3 hover:bg-gold-400/10 transition-colors duration-300">

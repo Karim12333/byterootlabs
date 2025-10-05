@@ -20,8 +20,8 @@ export default function ServicesPage() {
               Our <span className="text-gradient">Services</span>
             </h1>
             <p className="text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed">
-              We offer comprehensive software development services to help businesses thrive in the digital age. 
-              From concept to deployment, we&apos;ve got you covered.
+              We offer comprehensive software development and AI services to help businesses thrive in the digital age. 
+              From agentic AI solutions to cloud deployments, we&apos;ve got you covered.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function ServicesPage() {
       {/* Core Services */}
       <Section 
         title="What We Do" 
-        subtitle="Comprehensive software solutions tailored to your business needs."
+        subtitle="Comprehensive software and AI solutions tailored to your business needs."
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <Card>
@@ -59,20 +59,20 @@ export default function ServicesPage() {
           <Card>
             <div className="text-gold-400 mb-6">
               <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3C9.79 3 8 4.79 8 7c0 1.1.45 2.1 1.17 2.83A4.002 4.002 0 0012 14c1.38 0 2.63-.7 3.36-1.86A3.99 3.99 0 0016 7c0-2.21-1.79-4-4-4zM9 17c0-1.1.9-2 2-2h2c1.1 0 2 .9 2 2v1c0 1.1-.9 2-2 2h-2c-1.1 0-2-.9-2-2v-1zm6-9c0-.55-.45-1-1-1s-1 .45-1 1 .45 1 1 1 1-.45 1-1zM9 8c0-.55-.45-1-1-1s-1 .45-1 1 .45 1 1 1 1-.45 1-1z" />
               </svg>
             </div>
-            <h3 className="heading-md text-white mb-4">Mobile Development</h3>
+            <h3 className="heading-md text-white mb-4">Agentic AI Solutions</h3>
             <p className="text-white/70 mb-6">
-              Native and cross-platform mobile applications that deliver exceptional user experiences across iOS and Android. 
-              From concept to app store deployment.
+              Intelligent autonomous agents and AI-powered software that can think, learn, and act independently. 
+              We create sophisticated AI systems that automate complex workflows and decision-making processes.
             </p>
             <ul className="text-white/60 space-y-2 mb-6">
-              <li>• iOS & Android Native Apps</li>
-              <li>• React Native Development</li>
-              <li>• Flutter Applications</li>
-              <li>• App Store Optimization</li>
-              <li>• Mobile UI/UX Design</li>
+              <li>• Autonomous AI Agents</li>
+              <li>• Machine Learning Models</li>
+              <li>• Natural Language Processing</li>
+              <li>• Intelligent Automation Systems</li>
+              <li>• AI-Powered Analytics & Insights</li>
             </ul>
             <Button href="/contact" variant="secondary">
               Get Started

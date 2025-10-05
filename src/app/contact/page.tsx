@@ -9,7 +9,7 @@ export default function ContactPage() {
     <main>
       <Navbar />
       <div className="pt-32 pb-20">
-        <Section title="Contact" subtitle="Tell us about your project—scope, timeline, and goals.">
+        <Section title="Contact" subtitle="Share the details of your project, outlining your objectives, system expectations, data and integration requirements, and projected timeline, to help us craft a strategic plan that transforms your goals into measurable outcomes.">
           <div className="max-w-2xl mx-auto">
             <div className="rounded-xl border border-white/10 bg-coal/60 p-8 text-center">
               <div className="mb-4 text-base text-white/70">Email</div>

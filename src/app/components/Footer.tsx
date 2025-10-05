@@ -81,7 +81,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-6 text-lg">Services</h3>
             <ul className="space-y-3">
               <li className="text-white/70">Web Development</li>
-              <li className="text-white/70">Mobile Apps</li>
+              <li className="text-white/70">Agentic AI Solutions</li>
               <li className="text-white/70">Cloud Solutions</li>
               <li className="text-white/70">API Development</li>
             </ul>
