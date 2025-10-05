@@ -1,6 +1,6 @@
 # ByteRoot Labs - Software Development Company Website
 
-![ByteRoot Labs Logo](./public/logo.svg)
+![ByteRoot Labs Logo](./public/byterootlabslogo.png)
 
 A professional, modern website for ByteRoot Labs software development company built with Next.js 15, TypeScript, and Tailwind CSS.
 
