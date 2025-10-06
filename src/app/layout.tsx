@@ -8,10 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "ByteRoot Labs — Software Development Company",
-    template: "%s — ByteRoot Labs",
-  },
+  title: "ByteRoot Labs",
   description: "Professional software development company specializing in web applications, agentic AI solutions, and cloud solutions. Transform your ideas into powerful digital solutions with ByteRoot Labs.",
   keywords: ["software development", "web development", "agentic AI solutions", "cloud solutions", "ByteRoot Labs", "custom software"],
   authors: [{ name: "ByteRoot Labs" }],

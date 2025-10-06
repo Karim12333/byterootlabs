@@ -6,7 +6,7 @@ interface CardProps {
 
 export default function Card({ children, className = '', hover = true }: CardProps) {
   return (
-    <div className={`card ${hover ? 'hover-lift' : ''} ${className}`}>
+    <div className={`card flex flex-col h-full ${hover ? 'hover-lift' : ''} ${className}`}>
       {children}
     </div>
   )

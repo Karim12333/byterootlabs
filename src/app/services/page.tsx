@@ -4,8 +4,6 @@ import Section from '../components/Section'
 import Button from '../components/Button'
 import Card from '../components/Card'
 
-export const metadata = { title: 'Services — ByteRoot Labs' }
-
 export default function ServicesPage() {
   return (
     <main>
@@ -40,20 +38,24 @@ export default function ServicesPage() {
               </svg>
             </div>
             <h3 className="heading-md text-white mb-4">Web Development</h3>
-            <p className="text-white/70 mb-6">
-              Modern, responsive web applications built with cutting-edge technologies like React, Next.js, and Node.js. 
-              We create fast, scalable, and SEO-optimized websites that drive results.
-            </p>
-            <ul className="text-white/60 space-y-2 mb-6">
-              <li>• Custom Web Applications</li>
-              <li>• E-commerce Platforms</li>
-              <li>• Progressive Web Apps (PWAs)</li>
-              <li>• API Development & Integration</li>
-              <li>• Performance Optimization</li>
-            </ul>
-            <Button href="/contact" variant="secondary">
-              Get Started
-            </Button>
+            <div className="flex-grow">
+              <p className="text-white/70 mb-6">
+                Modern, responsive web applications built with cutting-edge technologies like React, Next.js, and Node.js. 
+                We create fast, scalable, and SEO-optimized websites that drive results.
+              </p>
+              <ul className="text-white/60 space-y-2 mb-6">
+                <li>• Custom Web Applications</li>
+                <li>• E-commerce Platforms</li>
+                <li>• Progressive Web Apps (PWAs)</li>
+                <li>• API Development & Integration</li>
+                <li>• Performance Optimization</li>
+              </ul>
+            </div>
+            <div className="mt-auto">
+              <Button href="/contact" variant="secondary">
+                Get Started
+              </Button>
+            </div>
           </Card>
           
           <Card>
@@ -63,20 +65,22 @@ export default function ServicesPage() {
               </svg>
             </div>
             <h3 className="heading-md text-white mb-4">Agentic AI Solutions</h3>
-            <p className="text-white/70 mb-6">
-              Intelligent autonomous agents and AI-powered software that can think, learn, and act independently. 
-              We create sophisticated AI systems that automate complex workflows and decision-making processes.
-            </p>
-            <ul className="text-white/60 space-y-2 mb-6">
-              <li>• Autonomous AI Agents</li>
-              <li>• Machine Learning Models</li>
-              <li>• Natural Language Processing</li>
-              <li>• Intelligent Automation Systems</li>
-              <li>• AI-Powered Analytics & Insights</li>
-            </ul>
-            <Button href="/contact" variant="secondary">
-              Get Started
-            </Button>
+            <div className="flex-grow">
+              <p className="text-white/70 mb-6">
+                Intelligent autonomous agents and AI-powered software that can think, learn, and act independently. 
+                We create sophisticated AI systems that automate complex workflows and decision-making processes.
+              </p>
+              <ul className="text-white/60 space-y-2 mb-6">
+                <li>• Autonomous AI Agents</li>
+                <li>• Intelligent Automation Systems</li>
+                <li>• AI-Powered Analytics & Insights</li>
+              </ul>
+            </div>
+            <div className="mt-auto">
+              <Button href="/contact" variant="secondary">
+                Get Started
+              </Button>
+            </div>
           </Card>
           
           <Card>
@@ -86,20 +90,24 @@ export default function ServicesPage() {
               </svg>
             </div>
             <h3 className="heading-md text-white mb-4">Cloud Solutions</h3>
-            <p className="text-white/70 mb-6">
-              Scalable cloud infrastructure and deployment strategies. We help you leverage the power of cloud computing 
-              for better performance, security, and cost efficiency.
-            </p>
-            <ul className="text-white/60 space-y-2 mb-6">
-              <li>• AWS & Azure Deployment</li>
-              <li>• DevOps & CI/CD Pipelines</li>
-              <li>• Microservices Architecture</li>
-              <li>• Database Design & Migration</li>
-              <li>• Server Management & Monitoring</li>
-            </ul>
-            <Button href="/contact" variant="secondary">
-              Get Started
-            </Button>
+            <div className="flex-grow">
+              <p className="text-white/70 mb-6">
+                Scalable cloud infrastructure and deployment strategies. We help you leverage the power of cloud computing 
+                for better performance, security, and cost efficiency.
+              </p>
+              <ul className="text-white/60 space-y-2 mb-6">
+                <li>• AWS & Azure Deployment</li>
+                <li>• DevOps & CI/CD Pipelines</li>
+                <li>• Microservices Architecture</li>
+                <li>• Database Design & Migration</li>
+                <li>• Server Management & Monitoring</li>
+              </ul>
+            </div>
+            <div className="mt-auto">
+              <Button href="/contact" variant="secondary">
+                Get Started
+              </Button>
+            </div>
           </Card>
           
           <Card>
@@ -109,20 +117,24 @@ export default function ServicesPage() {
               </svg>
             </div>
             <h3 className="heading-md text-white mb-4">Consulting & Strategy</h3>
-            <p className="text-white/70 mb-6">
-              Technical consulting and digital strategy to help you make informed decisions about your technology stack, 
-              architecture, and development roadmap.
-            </p>
-            <ul className="text-white/60 space-y-2 mb-6">
-              <li>• Technology Assessment</li>
-              <li>• Architecture Planning</li>
-              <li>• Code Review & Audits</li>
-              <li>• Digital Transformation</li>
-              <li>• Team Training & Mentoring</li>
-            </ul>
-            <Button href="/contact" variant="secondary">
-              Get Started
-            </Button>
+            <div className="flex-grow">
+              <p className="text-white/70 mb-6">
+                Technical consulting and digital strategy to help you make informed decisions about your technology stack, 
+                architecture, and development roadmap.
+              </p>
+              <ul className="text-white/60 space-y-2 mb-6">
+                <li>• Technology Assessment</li>
+                <li>• Architecture Planning</li>
+                <li>• Code Review & Audits</li>
+                <li>• Digital Transformation</li>
+                <li>• Team Training & Mentoring</li>
+              </ul>
+            </div>
+            <div className="mt-auto">
+              <Button href="/contact" variant="secondary">
+                Get Started
+              </Button>
+            </div>
           </Card>
         </div>
       </Section>

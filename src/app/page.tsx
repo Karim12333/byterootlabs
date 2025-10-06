@@ -27,17 +27,17 @@ export default function Home() {
               />
             </div>
             
-            <h1 className="heading-xl text-white mb-8 slide-up mx-auto text-center">
+            <h1 className="heading-xl text-white mb-8 slide-up mx-auto text-center px-4">
                Crafting Digital Excellence with
               <span className="text-gradient block mt-4">ByteRoot Labs</span>
             </h1>
             
-            <p className="text-xl text-white/80 mt-16 mb-12 slide-up leading-relaxed text-center">
+            <p className="text-lg sm:text-xl text-white/80 mt-8 sm:mt-16 mb-8 sm:mb-12 slide-up leading-relaxed text-center px-4">
               We transform ideas into powerful agentic AI solutions and intelligent software. From web applications to autonomous AI agents, 
               we build scalable, innovative technology that drives your business forward.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center slide-up">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center slide-up px-4">
               <Button href="/services" variant="primary">
                 Explore Services
               </Button>
@@ -57,18 +57,18 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 lg:py-24">
-        <div className="w-full max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="heading-lg text-gradient mb-6 slide-up text-center">
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16 sm:mb-20">
+            <h2 className="heading-lg text-gradient mb-6 slide-up text-center px-4">
               Our Expertise
             </h2>
-            <p className="text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed text-center">
+            <p className="text-lg sm:text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed text-center px-4">
               We specialize in building intelligent agentic AI solutions, robust web applications, and scalable cloud systems tailored to your business needs.
             </p>
           </div>
           <div className="w-full max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               <Card>
                 <div className="text-gold-400 mb-6 flex justify-center">
                   <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -169,13 +169,13 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 lg:py-24">
-        <div className="w-full max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <h2 className="heading-lg text-gradient mb-6 slide-up text-center">
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16 sm:mb-20">
+            <h2 className="heading-lg text-gradient mb-6 slide-up text-center px-4">
               Ready to Build Something Amazing?
             </h2>
-            <p className="text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed text-center">
+            <p className="text-lg sm:text-xl text-white/80 max-w-4xl mx-auto slide-up leading-relaxed text-center px-4">
               Let&apos;s discuss your project and turn your vision into reality.
             </p>
           </div>

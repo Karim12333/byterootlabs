@@ -91,7 +91,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-white/60">
-            © {new Date().getFullYear()} ByteRoot Labs. All rights reserved.
+            ByteRoot Labs — Transforming Ideas Into Intelligent Solutions
           </p>
         </div>
       </div>

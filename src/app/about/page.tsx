@@ -5,8 +5,6 @@ import Section from '../components/Section'
 import Button from '../components/Button'
 import Card from '../components/Card'
 
-export const metadata = { title: 'About — ByteRoot Labs' }
-
 export default function AboutPage() {
   return (
     <main>
@@ -141,23 +139,71 @@ export default function AboutPage() {
         </div>
       </Section>
 
-      {/* Technology Stack */}
+      {/* Expertise Areas */}
       <Section 
-        title="Our Technology Stack"
-        subtitle="We use modern, proven technologies to build robust and scalable solutions."
+        title="Our Expertise Areas"
+        subtitle="We deliver excellence through deep knowledge in key technology domains."
       >
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
-          {[
-            'Python', 'TensorFlow', 'PyTorch', 'OpenAI', 'LangChain', 'React',
-            'Next.js', 'Node.js', 'TypeScript', 'AWS', 'Docker', 'PostgreSQL'
-          ].map((tech) => (
-            <div key={tech} className="text-center">
-              <div className="w-16 h-16 bg-coal-800 rounded-lg flex items-center justify-center mx-auto mb-3 hover:bg-gold-400/10 transition-colors duration-300">
-                <span className="text-gold-400 font-semibold">{tech.charAt(0)}</span>
-              </div>
-              <p className="text-white/70 text-sm font-medium">{tech}</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Card>
+            <div className="text-gold-400 mb-6">
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9m0 9a9 9 0 01-9-9m9 9c0 5-4 9-9 9s-9-4-9-9m9 9a9 9 0 009-9" />
+              </svg>
             </div>
-          ))}
+            <h3 className="heading-sm text-white mb-3">Full-Stack Development</h3>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Modern web applications with responsive frontends, robust backends, and seamless user experiences.
+            </p>
+          </Card>
+
+          <Card>
+            <div className="text-gold-400 mb-6">
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+              </svg>
+            </div>
+            <h3 className="heading-sm text-white mb-3">Cloud Architecture</h3>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Scalable cloud infrastructure and microservices architecture.
+            </p>
+          </Card>
+
+          <Card>
+            <div className="text-gold-400 mb-6">
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </div>
+            <h3 className="heading-sm text-white mb-3">Security & Performance</h3>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Advanced security implementations, performance optimization, and best practices for reliable software systems.
+            </p>
+          </Card>
+
+          <Card>
+            <div className="text-gold-400 mb-6">
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+              </svg>
+            </div>
+            <h3 className="heading-sm text-white mb-3">Data Engineering</h3>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Database design, data pipeline development, and analytics solutions for data-driven decision making.
+            </p>
+          </Card>
+
+          <Card>
+            <div className="text-gold-400 mb-6">
+              <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3 className="heading-sm text-white mb-3">Innovation & Research</h3>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Technology research, prototype development, and emerging technology integration.
+            </p>
+          </Card>
         </div>
       </Section>
 

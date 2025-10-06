@@ -2,8 +2,6 @@ import Footer from '../components/Footer'
 import Section from '../components/Section'
 import Navbar from '../components/Navbar'
 
-export const metadata = { title: 'Contact — ByteRoot Labs' }
-
 export default function ContactPage() {
   return (
     <main>

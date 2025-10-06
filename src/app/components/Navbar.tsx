@@ -35,21 +35,24 @@ export default function Navbar() {
             <div className="flex items-center space-x-16">
               <Link
                 href="/"
-                className="text-white/90 hover:text-gold-400 transition-colors duration-300 font-medium text-base"
+                className="relative text-white/90 hover:text-gold-400 transition-all duration-300 font-medium text-base group"
               >
                 Home
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link
                 href="/services"
-                className="text-white/90 hover:text-gold-400 transition-colors duration-300 font-medium text-base"
+                className="relative text-white/90 hover:text-gold-400 transition-all duration-300 font-medium text-base group"
               >
                 Services
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link
                 href="/about"
-                className="text-white/90 hover:text-gold-400 transition-colors duration-300 font-medium text-base"
+                className="relative text-white/90 hover:text-gold-400 transition-all duration-300 font-medium text-base group"
               >
                 About
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gold-400 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </div>
           </div>
